@@ -109,13 +109,13 @@ from telethon.errors import SessionPasswordNeededError
 # API ID و API Hash خود را از my.telegram.org دریافت کنید.
 # **توصیه می‌شود برای امنیت، این مقادیر را از متغیرهای محیطی بخوانید.**
 # مثال: TG_API_ID=1234567 TG_API_HASH=abcdef1234567890abcdef1234567890 python index.py
-API_ID = os.environ.get('TG_API_ID', 'YOUR_API_ID_HERE')  # <<--- با API ID خود جایگزین کنید
-API_HASH = os.environ.get('TG_API_HASH', 'YOUR_API_HASH_HERE')  # <<--- با API Hash خود جایگزین کنید
+API_ID = os.environ.get('TG_API_ID', '29042268')  # <<--- با API ID خود جایگزین کنید
+API_HASH = os.environ.get('TG_API_HASH', '54a7b377dd4a04a58108639febe2f443')  # <<--- با API Hash خود جایگزین کنید
 SESSION_NAME = 'my_userbot_session'  # نام فایل سشن برای ذخیره اطلاعات لاگین
 
 # این را به یک آیدی عددی تبدیل کنید تا فقط خودتان بتوانید دستورات را اجرا کنید.
 # برای یافتن User ID خود، می‌توانید با بات @userinfobot صحبت کنید.
-OWNER_ID = int(os.environ.get('TG_OWNER_ID', 0)) # <<--- با User ID خود جایگزین کنید (فقط عددی)
+OWNER_ID = int(os.environ.get('TG_OWNER_ID', 6508600903)) # <<--- با User ID خود جایگزین کنید (فقط عددی)
 
 # API Key برای OpenWeatherMap (برای دستور .weather)
 OWM_API_KEY = os.environ.get('OWM_API_KEY', 'YOUR_OPENWEATHERMAP_API_KEY_HERE') # <<--- API Key را اینجا قرار دهید
